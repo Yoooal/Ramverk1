@@ -8,13 +8,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Ramverk1</a>
+      <a class="navbar-brand" href="<?= $app->url->create("") ?>">Ramverk1</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li><a href="<?= $app->url->create("") ?>">Home</a></li>
-        <li><a href="<?= $app->url->create("about") ?>">About</a></li>
-        <li><a href="<?= $app->url->create("report") ?>">Report</a></li>
+        <li><a href="about">About</a></li>
+        <li><a href="report">Report</a></li>
+        <li><a href="remserver">Remserver</a></li>
+        <li><a href="comment">Comment</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
