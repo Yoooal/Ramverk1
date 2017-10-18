@@ -12,29 +12,29 @@ class DisqusController implements AppInjectableInterface
 
     public function createComment($data) {
 
-        $this->app->disqus->createComment();
-        $this->app->response->sendJson(["message" => "Comment created"]);
+        $this->di->get("disqus")->createComment();
+        $this->di->get("response")->sendJson(["message" => "Comment created"]);
         exit;
     }
 
     public function readAllComments() {
 
-        $this->app->disqus->readAllComments();
+        $this->di->get("disqus")->readAllComments();
         exit;
     }
 
     public function updateComment($data) {
 
-        $this->app->disqus->updateComment();
-        $this->app->response->sendJson(["message" => "Comment updated"]);
+        $this->di->get("disqus")->updateComment();
+        $this->di->get("response")->sendJson(["message" => "Comment updated"]);
         exit;
 
     }
 
     public function deleteComment($comment_id) {
 
-        $this->app->disqus->deleteComment();
-        $this->app->response->sendJson(["message" => "Comment deleted"]);
+        $this->di->get("disqus")->deleteComment();
+        $this->di->get("response")->sendJson(["message" => "Comment deleted"]);
         exit;
 
     }

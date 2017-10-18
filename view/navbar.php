@@ -16,7 +16,6 @@
         <li><a href="about">About</a></li>
         <li><a href="report">Report</a></li>
         <li><a href="remserver">Remserver</a></li>
-        <li><a href="comment">Comment</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e10e99a5ba8f5e2e46c84caf9c615f22",
+    "content-hash": "1e0bc0b2da419d44cab2d34e96babd39",
     "packages": [
         {
             "name": "anax/common",
@@ -150,6 +150,56 @@
                 "mvc"
             ],
             "time": "2017-09-14T15:26:34+00:00"
+        },
+        {
+            "name": "anax/page",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/canax/page.git",
+                "reference": "e2a60025f39b1121674365eaff3f8955a2975a69"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/canax/page/zipball/e2a60025f39b1121674365eaff3f8955a2975a69",
+                "reference": "e2a60025f39b1121674365eaff3f8955a2975a69",
+                "shasum": ""
+            },
+            "require": {
+                "anax/di": "^1.0",
+                "anax/request": "^1.0",
+                "anax/response": "^1.0",
+                "anax/view": "^1.0",
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Anax\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mikael Roos",
+                    "email": "mos@dbwebb.se",
+                    "homepage": "https://dbwebb.se",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Anax page module.",
+            "homepage": "https://dbwebb.se/anax",
+            "keywords": [
+                "boilerplate",
+                "education",
+                "framework",
+                "micro",
+                "mvc"
+            ],
+            "time": "2017-09-25T10:35:22+00:00"
         },
         {
             "name": "anax/request",

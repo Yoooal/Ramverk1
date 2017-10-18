@@ -12,6 +12,11 @@ return [
             "file" => __DIR__ . "/route2/internal.php",
         ],
         [
+            // Routers for the REM server mounts on api/
+            "mount" => "api",
+            "file" => __DIR__ . "/route2/remserver.php",
+        ],
+        [
             // For debugging and development details on Anax
             "mount" => "debug",
             "file" => __DIR__ . "/route2/debug.php",
